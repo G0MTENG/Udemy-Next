@@ -1,0 +1,23 @@
+.newsList {
+    width: 80%;
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10% 10%;
+    text-align: center;
+}
+
+.newsList a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.newsList li {
+    height: 16rem;
+}
+
+.newsList li:hover {
+    border: 1px solid #fff;
+    border-radius: 5px;
+}

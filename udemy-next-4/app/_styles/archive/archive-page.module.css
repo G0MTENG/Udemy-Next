@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.nav a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: rgba(136, 88, 214, 0.554);
+}
